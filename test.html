@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    .c{
+        width: 100px;
+        height: 100px;
+        display: block;
+        border: 1px solid black;
+    }
+    .a .b .c{
+        color: red;
+    }
+    .a .c{
+        background-color: yellow;
+    }
+    .a.b.c{
+        background-color: green;
+        border: none;
+    }
+</style>
+</head>
+<body>
+
+<span class="a">
+    <span class="b">
+        <span class="c">1</span>
+    </span>
+    <span class="">
+        <span class="c">2</span>
+    </span>
+</span>
+<span class="a b c">3</span>
+<div class="a b c">4</div>
+</body>
+</html>

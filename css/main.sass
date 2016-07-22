@@ -15,20 +15,28 @@ body
     color: #000000
 
 .navbar-default
-  .navbar-nav .navbar-left .navbar-right
-    padding-top: 54px
+  border: none
+  .navbar-top-part
 
-  .navbar-nav li
-    a
-      color: black
-      border-top: 5px solid transparent
+    .navbar-left,.navbar-right
+      padding-top: 54px
+      a
+        color: black
+        border-top: 5px solid transparent
+        &:hover
+          border-top: 5px solid grey
 
-    a.menu-ctg-top
-      color: $base-color-grey
-      margin-right: 55px
 
-    &:hover
-      border-top: 5px solid grey
+  .navbar-nav
+    li
+      a
+        margin-right: 55px
+      a.menu-ctg-top
+        color: $base-color-grey
+
+      &:last-child a
+        margin-right: 24px
+
 
     span.tel-number
       font-weight: normal
@@ -40,16 +48,17 @@ body
       font-size: $base-font-size
       color: #595959
 
-    .navbar-nav.navbar-left li
+    .navbar-left li
       a
+        color: black
         font-size: $base-font-size
         margin-right: 70px
-
-      &:hover
-        color: #e91e63
-
+        &:hover
+          color: #e91e63
 
 
+#bs-navbar-collapse-1
+  padding-right: 0px
 
 
 

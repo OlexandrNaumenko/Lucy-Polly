@@ -17,17 +17,39 @@ body {
   padding-left: 0px; }
 
 body {
-  color: black; }
+  color: #000000;
+  position: relative; }
 
-.navbar-top-part {
-  padding-top: 40px; }
+.navbar.navbar-default {
+  position: relative; }
+  .navbar.navbar-default .logo {
+    position: absolute;
+    top: 42px;
+    left: 664px;
+    font-size: 36px;
+    color: #000000; }
 
+.navbar-default .navbar-nav .navbar-left .navbar-right {
+  padding-top: 54px; }
 .navbar-default .navbar-nav li a {
   color: black;
-  border-top: 2px solid transparent; }
+  border-top: 5px solid transparent; }
 .navbar-default .navbar-nav li a.menu-ctg-top {
-  color: red; }
+  color: #9e9e9e;
+  margin-right: 55px; }
 .navbar-default .navbar-nav li:hover {
-  border-top: 2px solid grey; }
+  border-top: 5px solid grey; }
+.navbar-default .navbar-nav li span.tel-number {
+  font-weight: normal; }
+.navbar-default .navbar-bottom-part .container-fluid {
+  padding-top: 74px; }
+  .navbar-default .navbar-bottom-part .container-fluid a.btn {
+    font-size: 18px;
+    color: #595959; }
+  .navbar-default .navbar-bottom-part .container-fluid .navbar-nav.navbar-left li a {
+    font-size: 18px;
+    margin-right: 70px; }
+  .navbar-default .navbar-bottom-part .container-fluid .navbar-nav.navbar-left li:hover {
+    color: #e91e63; }
 
 /*# sourceMappingURL=main.css.map */

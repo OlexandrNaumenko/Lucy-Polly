@@ -1,19 +1,56 @@
 @import "base"
 
 body
-  color: black
+  color: #000000
+  position: relative
 
-.navbar-top-part
-  padding-top: 40px
+.navbar.navbar-default
+  position: relative
 
-.navbar-default .navbar-nav li
-  a
-    color: black
-    border-top: 2px solid transparent
-  a.menu-ctg-top
-    color: $base-color-grey
+  .logo
+    position: absolute
+    top: 42px
+    left: 664px
+    font-size: 36px
+    color: #000000
 
-  &:hover
-    border-top: 2px solid grey
+.navbar-default
+  .navbar-nav .navbar-left .navbar-right
+    padding-top: 54px
+
+  .navbar-nav li
+    a
+      color: black
+      border-top: 5px solid transparent
+
+    a.menu-ctg-top
+      color: $base-color-grey
+      margin-right: 55px
+
+    &:hover
+      border-top: 5px solid grey
+
+    span.tel-number
+      font-weight: normal
+
+  .navbar-bottom-part .container-fluid
+    padding-top: 74px
+
+    a.btn
+      font-size: $base-font-size
+      color: #595959
+
+    .navbar-nav.navbar-left li
+      a
+        font-size: $base-font-size
+        margin-right: 70px
+
+      &:hover
+        color: #e91e63
+
+
+
+
+
 
 

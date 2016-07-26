@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-    <div class="navbar-top-part navbar navbar-default no_padding">
+    <div class="navbar-top-part navbar navbar-default navbar-fixed-top no_padding">
         <div class="container-fluid container-fluid-black  no_padding">
 
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,43 +50,84 @@
     </div>
 
         <!--Carousel-->
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="lp-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active indicator"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="..." alt="...">
-                <div class="carousel-caption">
-                    ...
-                </div>
-            </div>
-            <div class="item">
-                <img src="..." alt="...">
-                <div class="carousel-caption">
-                    ...
-                </div>
-            </div>
-            ...
-        </div>
+                <img src="images/bg.jpg" class="bg">
+                <div class="item-content">
+                    <div class="description">
+                        Замечательний подарок <span class="description-part2">для ваших близких.</span>
+                    </div>
+                    <div class="sale">
+                        *вест жовтень, картини для ваших близьких зі знижкою - 15%
+                    </div>
+                    <div class="btn btn-primary">С удовольствием!</div>
+                    <div class="btn btn-default">дізнатися більше</div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="content">
+
+    </div>
+    <div class="footer">
+        <div class="one-click">
+            <span class="text-one-click">Вы знаете что? Товары можно оформить в <span class="act">один клик.</span></span>
+        </div>
+        <div class="bot-menu navbar navbar-default navbar-fixed-bottom">
+            <div class="container-fluid">
+                <ul class="nav">
+                    <li><a href="#" class="list-head">@ИП "Lucy Polly"</a></li>
+                    <li><a href="#">Графік роботи Call-центра</a></li>
+                    <li><a href="#" class="list-head">8:00-9:00</a></li>
+                    <li><a href="#">Вы также можете перейти
+                        на мобильную версию сайта</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="#" class="list-head">Управление</a></li>
+                    <li><a href="#">Как оформить заказ</a></li>
+                    <li><a href="#">Условия доставки</a></li>
+                    <li><a href="#">возврат</a></li>
+                    <li><a href="#">Оферта</a></li>
+                    <li><a href="#">Програма лояльности</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="#" class="list-head">О нас</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакти</a></li>
+                    <li><a href="#">Ми в твитере</a></li>
+                    <li><a href="#">Сотрудничество с нами</a></li>
+                    <li><a href="#">Условия использования сайта</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="#" class="list-head">Продажи</a></li>
+                    <li><a href="#">Киев</a></li>
+                    <li><a href="#">Ташкент</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="#" class="list-head">Способи оплати</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Сделано в <span class="act">John Larckin</span></a></li>
+                    <li><a href="#">
+                        Вы можете оплатить покупки наличными при получении
+                        либо выбрать другой способ оплати
+                    </a></li>
+                </ul>
+            </div>
+
+        </div>
 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -60,6 +60,74 @@ body
 #bs-navbar-collapse-1
   padding-right: 0px
 
+#lp-carousel
+  .carousel-indicators li
+    background-color: #e3e3e3
+    .indicator
+      font-size: 8px
+      margin-right: 6px
+      background-color: #e3e3e3
+
+    .active
+      background-color: red
+      border-color: #b6b9bb
+      font-size: 8px
+  .carousel-inner
+    .item
+      position: relative
+
+      .bg
+        +img-responsive()
+        margin: 0 auto
+        min-height: 458px
+
+      .item-content
+        position: absolute
+        left: 567px
+        top: 167px
+        width: 450px
+
+        .description
+          font-size: 36px
+          padding-bottom: 7px
+
+          .description-part2
+            margin-left: 49px
+
+        .sale
+          font-size: 12px
+          color: $base-color-grey
+          padding-bottom: 36px
+          padding-left: 34px
+
+.footer
+  .one-click
+    background-color: rgba(2, 169, 255, 0.23)
+    height: 73px
+    display: block
+
+    .text-one-click
+      padding: 29px 546px
+      display: block
+      font-size: 17px
+
+  .bot-menu.navbar
+    .container-fluid
+      ul.nav
+        float: left
+        margin-left: 20px
+
+        li a
+          color: $base-color-grey
+          white-space: pre-line
+
+        li a.list-head
+          color: black
+
+
+
+
+
 
 
 

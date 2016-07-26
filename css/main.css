@@ -2,6 +2,19 @@ body {
   color: black;
   font-weight: bold; }
 
+.btn {
+  padding: 12px 25px;
+  font-weight: bolder; }
+
+.btn-primary {
+  background-color: #2012cb;
+  border-color: #2012cb;
+  margin-left: 42px;
+  margin-right: 6px; }
+
+.act {
+  color: #0288d1; }
+
 .no_padding.container, .no_padding.container-fluid,
 .no_padding.col-lg-1, .no_padding.col-lg-10, .no_padding.col-lg-11, .no_padding.col-lg-12, .no_padding.col-lg-2,
 .no_padding.col-lg-3, .no_padding.col-lg-4, .no_padding.col-lg-5, .no_padding.col-lg-6, .no_padding.col-lg-7,
@@ -41,7 +54,7 @@ body {
   .navbar-default .navbar-nav li a {
     margin-right: 55px; }
   .navbar-default .navbar-nav li a.menu-ctg-top {
-    color: #9e9e9e; }
+    color: #c2c2c2; }
   .navbar-default .navbar-nav li:last-child a {
     margin-right: 24px; }
   .navbar-default .navbar-nav span.tel-number {
@@ -60,5 +73,56 @@ body {
 
 #bs-navbar-collapse-1 {
   padding-right: 0px; }
+
+#lp-carousel .carousel-indicators li {
+  background-color: #e3e3e3; }
+  #lp-carousel .carousel-indicators li .indicator {
+    font-size: 8px;
+    margin-right: 6px;
+    background-color: #e3e3e3; }
+  #lp-carousel .carousel-indicators li .active {
+    background-color: red;
+    border-color: #b6b9bb;
+    font-size: 8px; }
+#lp-carousel .carousel-inner .item {
+  position: relative; }
+  #lp-carousel .carousel-inner .item .bg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    min-height: 458px; }
+  #lp-carousel .carousel-inner .item .item-content {
+    position: absolute;
+    left: 567px;
+    top: 167px;
+    width: 450px; }
+    #lp-carousel .carousel-inner .item .item-content .description {
+      font-size: 36px;
+      padding-bottom: 7px; }
+      #lp-carousel .carousel-inner .item .item-content .description .description-part2 {
+        margin-left: 49px; }
+    #lp-carousel .carousel-inner .item .item-content .sale {
+      font-size: 12px;
+      color: #c2c2c2;
+      padding-bottom: 36px;
+      padding-left: 34px; }
+
+.footer .one-click {
+  background-color: rgba(2, 169, 255, 0.23);
+  height: 73px;
+  display: block; }
+  .footer .one-click .text-one-click {
+    padding: 29px 546px;
+    display: block;
+    font-size: 17px; }
+.footer .bot-menu.navbar .container-fluid ul.nav {
+  float: left;
+  margin-left: 20px; }
+  .footer .bot-menu.navbar .container-fluid ul.nav li a {
+    color: #c2c2c2;
+    white-space: pre-line; }
+  .footer .bot-menu.navbar .container-fluid ul.nav li a.list-head {
+    color: black; }
 
 /*# sourceMappingURL=main.css.map */

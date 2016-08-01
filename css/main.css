@@ -4,7 +4,8 @@ body {
 
 .btn {
   padding: 12px 25px;
-  font-weight: bolder; }
+  font-weight: bolder;
+  border: 2px solid #c2c2c2; }
 
 .btn-primary {
   background-color: #2012cb;
@@ -107,6 +108,58 @@ body {
       color: #c2c2c2;
       padding-bottom: 36px;
       padding-left: 34px; }
+
+.content {
+  padding-top: 14px; }
+  .content .picture-sm-top, .content .picture-sm-top-second, .content .picture-big-top {
+    padding: 40px;
+    background-color: #2aabd2;
+    width: 100%;
+    float: left;
+    display: block; }
+    .content .picture-sm-top .pic-description, .content .picture-sm-top-second .pic-description, .content .picture-big-top .pic-description {
+      padding-top: 24px;
+      text-align: center; }
+    .content .picture-sm-top .picture, .content .picture-sm-top-second .picture, .content .picture-big-top .picture {
+      text-align: center; }
+  .content .picture-sm-top-second, .content .picture-big-top {
+    padding: 0 70px 46px 70px;
+    margin-left: 0; }
+    .content .picture-sm-top-second .pic-description, .content .picture-big-top .pic-description {
+      padding-bottom: 22px; }
+  .content .picture-big-top {
+    padding: 0 80px 46px 80px;
+    float: none;
+    display: block;
+    height: 317px;
+    overflow: hidden; }
+    .content .picture-big-top .picture-big {
+      text-align: center; }
+    .content .picture-big-top .pic-description {
+      padding-bottom: 22px; }
+    .content .picture-big-top img.bg {
+      width: 619px;
+      min-height: 200px; }
+  .content .pd {
+    margin-top: 14px; }
+
+.special-proposition {
+  display: block; }
+  .special-proposition .sp-pro-picture-sm {
+    padding: 0 70px 46px 70px;
+    background-color: red;
+    width: 350px;
+    float: left;
+    margin-left: 10px; }
+    .special-proposition .sp-pro-picture-sm .pic-description {
+      padding-top: 22px; }
+    .special-proposition .sp-pro-picture-sm .for-person {
+      padding-top: 15px;
+      color: #c2c2c2; }
+    .special-proposition .sp-pro-picture-sm .picture {
+      padding-top: 30px; }
+    .special-proposition .sp-pro-picture-sm .pic-description, .special-proposition .sp-pro-picture-sm .for-person, .special-proposition .sp-pro-picture-sm .picture {
+      text-align: center; }
 
 .footer .one-click {
   background-color: rgba(2, 169, 255, 0.23);

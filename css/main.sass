@@ -1,18 +1,16 @@
 @import "base"
 
-body
-  color: #000000
-  position: relative
-
 .navbar.navbar-default
   position: relative
 
   .logo
-    position: absolute
-    top: 42px
-    left: 664px
+    font-family: 'CoCo', sans-serif
+    padding-top: 68px
     font-size: 36px
     color: #000000
+    margin: 0 auto
+    width: 540px
+    text-align: center
 
 .navbar-default
   border: none
@@ -22,9 +20,9 @@ body
       padding-top: 54px
       a
         color: black
-        border-top: 5px solid transparent
-        &:hover
-          border-top: 5px solid grey
+        border-top: 2px solid transparent
+        &.active, &:hover
+          border-color: $base-color-1
 
 
   .navbar-nav
@@ -42,16 +40,18 @@ body
       font-weight: normal
 
   .navbar-bottom-part .container-fluid
-    padding-top: 74px
+    padding-top: 38px
 
     a.btn
       font-size: $base-font-size
       color: #595959
+      border: none
 
     .navbar-left li
       a
         color: black
         font-size: $base-font-size
+        font-weight: 600
         margin-right: 70px
         &:hover
           color: #e91e63
@@ -74,37 +74,43 @@ body
       font-size: 8px
   .carousel-inner
     .item
-      position: relative
-
+      height: 458px
+      overflow: hidden
       .bg
         +img-responsive()
-        margin: 0 auto
+        width: 100%
         min-height: 458px
 
       .item-content
         position: absolute
-        left: 567px
-        top: 167px
-        width: 450px
+        left: 0
+        top: 171px
+        width: 100%
 
-        .description
-          font-size: 36px
-          padding-bottom: 7px
+        .center
+          margin: 0 auto
+          width: 453px
+          .description
+            font-size: 36px
+            padding-bottom: 7px
+            font-weight: 600
 
-          .description-part2
-            margin-left: 49px
+            .description-part2
+              margin-left: 49px
 
-        .sale
-          font-size: 12px
-          color: $base-color-grey
-          padding-bottom: 36px
-          padding-left: 34px
+          .sale
+            font-size: 12px
+            color: $base-color-grey
+            padding-bottom: 36px
+            padding-left: 34px
 
 .content
   padding-top: 14px
 
+  .col-lg-3.col-md-3
+    overflow: hidden
   .picture-sm-top
-    padding: 40px
+    padding: 56px 41px 26px
     background-color: #2aabd2
     //max-width: 350px
     width: 100%
@@ -123,7 +129,7 @@ body
 
   .picture-sm-top-second
     @extend .picture-sm-top
-    padding: 0 70px 46px 70px
+    padding: 0 70px 48px 70px
     margin-left: 0
 
     .pic-description
@@ -146,37 +152,34 @@ body
       padding-bottom: 22px
 
     img.bg
-      width: 619px
+      width: 100%
       min-height: 200px
 
-  .pd
-    margin-top: 14px
-
-.special-proposition
-  display: block
-
   .sp-pro-picture-sm
-    padding: 0 70px 46px 70px
-    background-color: darkseagreen
-    width: 350px
-    float: left
+    @extend .picture-sm-top-second
 
     .pic-description
-      padding-top: 22px
+      padding-bottom: 4px
 
     .for-person
-      padding-top: 15px
+      padding-bottom: 22px
       color: $base-color-grey
-
-    .picture
-      padding-top: 30px
-
-      img.bg
-        height: 258px
-        width: 211px
-
-    .pic-description,.for-person,.picture
       text-align: center
+
+  .sp-pro-picture-sm-second
+    @extend .picture-sm-top
+    padding: 21px 41px 48px
+
+    .pic-description
+      padding-top: 0px
+      padding-bottom: 4px
+
+    .for-person
+      color: $base-color-grey
+      text-align: center
+      padding-bottom: 37px
+
+
 
 .con-bottom-part
 
@@ -255,7 +258,6 @@ body
     background-color: rgba(2, 169, 255, 0.23)
     height: 110px
     display: block
-
     .text-one-click
       padding: 47px 546px
       display: block

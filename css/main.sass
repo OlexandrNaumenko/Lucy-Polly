@@ -20,11 +20,12 @@
   .navbar-top-part
 
     .navbar-right
+      li:last-child
+        a
+          font-weight: normal
       a
-        margin-right: 58px
-
-        .top-bold-text
-        font-weight: 800
+        &.top-bold-text
+          font-weight: 800 !important
 
         span.top-bold-text
           font-weight: 800
@@ -33,28 +34,20 @@
       padding-top: 54px
       margin: 0 auto
       display: table
-      width: 459px
+      //width: 459px
       a
         color: black
         border-top: 2px solid transparent
-        font-weight: 700
+        font-weight: normal
         &.active, &:hover
           border-color: $base-color-1
-      a:last-child
-        font-weight: normal
-
 
   .navbar-nav
-    li
-      a
-        //margin-right: 55px
-      a.menu-ctg-top
-        color: $base-color-grey
-        margin-left: 20px
-
-      &:last-child a
-        margin-right: 24px
-
+    a.menu-ctg-top
+      color: $base-color-grey
+      margin-left: 20px
+    &:last-child a
+      margin-right: 24px
 
     span.tel-number
       font-weight: normal
@@ -204,98 +197,83 @@
       font-size: 12px
       font-weight: normal
 
+.con-bottom-part
+  .col-lg-4
+    .news
+      text-align: center
+      width: 100%
+      float: left
+      //margin-right: 75px
+      //margin-left: 21px
+      padding: 30px 21px 32px 30px
+      background-color: red
 
+      .news-header
+        padding-bottom: 17px
+        //padding-top: 30px
+        font-size: 36px
+        font-weight: 600
 
+      .news-text
+        padding-bottom: 59px
+        font-size: 14px
+        font-weight: 600
 
-  .con-bottom-part
-    .col-xs-6 .col-sm-6 .col-md-4 .col-lg-4
-      .news
-        text-align: center
-        width: 428px
-        float: left
-        //margin-right: 75px
-        //margin-left: 21px
-        padding: 30px 21px 32px 30px
-        background-color: red
+      .line
+        border: 1px solid $base-color-grey
+        border-top-color: transparent
+        height: 8px
+        width: 220px
+        margin: 0 auto 27px
 
-        .news-header
-          padding-bottom: 17px
-          //padding-top: 30px
-          font-size: 36px
-          font-weight: 600
+      .btn
+        background-color: #1F87D7
+        margin-bottom: 30px
+        color: #ffffff
+        font-size: 14px
 
-        .news-text
-          padding-bottom: 59px
-          font-size: 14px
-          font-weight: 600
+      .news-fotter
+        font-size: 10px
 
-        .line
-          border: 1px solid $base-color-grey
-          border-top-color: transparent
-          height: 8px
-          width: 220px
-          margin: 0 auto 27px
+        span
+          color: $base-color-top-menu
 
-        .btn
-          background-color: #1F87D7
-          margin-bottom: 30px
-          color: #ffffff
-          font-size: 14px
+  .product
+    display: block
+    background-color: #2aabd2
+    padding: 34px 28px 0 42px
 
-        .news-fotter
-          font-size: 10px
+    .product-discription
+      float: left
+      margin-right: 113px
 
-          span
-            color: $base-color-top-menu
+      .for-big-kids
+        padding-top: 18px
+        font-size: 30px
 
-    .product
-      display: block
-      background-color: #2aabd2
-      padding: 34px 28px 34px 42px
+      .pr-dis-discription
+        padding-top: 30px
+        width: 200px
+        font-size: 14px
 
-      .product-discription
-        float: left
-        margin-right: 0
+      .btn
+        margin-top: 68px
+        font-size: 14px
+        overflow: hidden
+        width: 100%
 
-        .for-big-kids
-          padding-top: 18px
-          font-size: 30px
-
-        .pr-dis-discription
-          padding-top: 30px
-          width: 200px
-          font-size: 14px
-
-        .btn
-          margin-top: 68px
-          font-size: 14px
-          overflow: hidden
-          width: 100%
-
-      .pr-dis-picture
-        img.bg
-          max-width: 479px
-          height: 266px
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .pr-dis-picture
+      overflow: hidden
+      width: 479px
+      height: 300px
+      img.bg
+        width: 100%
 
 .footer
+  .nav
+    width: 20%
+    &:last-child
+      text-align: right
   .one-click
     background-color: rgba(2, 169, 255, 0.23)
     height: 75px
@@ -315,10 +293,8 @@
         padding: 0
         margin: 0
 
-
         li a
           color: $base-color-grey
-          white-space: pre-line
           font-size: 12px
 
         li a.lucy-polly
@@ -334,9 +310,6 @@
 
         li a.list-bottom
           font-size: 10px
-
-
-
 
 
 

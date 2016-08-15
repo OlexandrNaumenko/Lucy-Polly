@@ -117,28 +117,26 @@ body {
 
 .navbar-default {
   border: none; }
-  .navbar-default .navbar-top-part .navbar-right a {
-    margin-right: 58px;
+  .navbar-default .navbar-top-part .navbar-right li:last-child a {
+    font-weight: normal; }
+  .navbar-default .navbar-top-part .navbar-right a.top-bold-text {
+    font-weight: 800 !important; }
+  .navbar-default .navbar-top-part .navbar-right a span.top-bold-text {
     font-weight: 800; }
-    .navbar-default .navbar-top-part .navbar-right a span.top-bold-text {
-      font-weight: 800; }
   .navbar-default .navbar-top-part .navbar-left, .navbar-default .navbar-top-part .navbar-right {
     padding-top: 54px;
     margin: 0 auto;
-    display: table;
-    width: 459px; }
+    display: table; }
     .navbar-default .navbar-top-part .navbar-left a, .navbar-default .navbar-top-part .navbar-right a {
       color: black;
       border-top: 2px solid transparent;
-      font-weight: 700; }
+      font-weight: normal; }
       .navbar-default .navbar-top-part .navbar-left a.active, .navbar-default .navbar-top-part .navbar-left a:hover, .navbar-default .navbar-top-part .navbar-right a.active, .navbar-default .navbar-top-part .navbar-right a:hover {
         border-color: #455a64; }
-    .navbar-default .navbar-top-part .navbar-left a:last-child, .navbar-default .navbar-top-part .navbar-right a:last-child {
-      font-weight: normal; }
-  .navbar-default .navbar-nav li a.menu-ctg-top {
+  .navbar-default .navbar-nav a.menu-ctg-top {
     color: #c2c2c2;
     margin-left: 20px; }
-  .navbar-default .navbar-nav li:last-child a {
+  .navbar-default .navbar-nav:last-child a {
     margin-right: 24px; }
   .navbar-default .navbar-nav span.tel-number {
     font-weight: normal; }
@@ -251,58 +249,66 @@ body {
       padding-bottom: 37px;
       font-size: 12px;
       font-weight: normal; }
-  .content .con-bottom-part .col-xs-6 .col-sm-6 .col-md-4 .col-lg-4 .news {
-    text-align: center;
-    width: 428px;
-    float: left;
-    padding: 30px 21px 32px 30px;
-    background-color: red; }
-    .content .con-bottom-part .col-xs-6 .col-sm-6 .col-md-4 .col-lg-4 .news .news-header {
-      padding-bottom: 17px;
-      font-size: 36px;
-      font-weight: 600; }
-    .content .con-bottom-part .col-xs-6 .col-sm-6 .col-md-4 .col-lg-4 .news .news-text {
-      padding-bottom: 59px;
-      font-size: 14px;
-      font-weight: 600; }
-    .content .con-bottom-part .col-xs-6 .col-sm-6 .col-md-4 .col-lg-4 .news .line {
-      border: 1px solid #c2c2c2;
-      border-top-color: transparent;
-      height: 8px;
-      width: 220px;
-      margin: 0 auto 27px; }
-    .content .con-bottom-part .col-xs-6 .col-sm-6 .col-md-4 .col-lg-4 .news .btn {
-      background-color: #1F87D7;
-      margin-bottom: 30px;
-      color: #ffffff;
-      font-size: 14px; }
-    .content .con-bottom-part .col-xs-6 .col-sm-6 .col-md-4 .col-lg-4 .news .news-fotter {
-      font-size: 10px; }
-      .content .con-bottom-part .col-xs-6 .col-sm-6 .col-md-4 .col-lg-4 .news .news-fotter span {
-        color: #9e9e9e; }
-  .content .con-bottom-part .product {
-    display: block;
-    background-color: #2aabd2;
-    padding: 34px 28px 34px 42px; }
-    .content .con-bottom-part .product .product-discription {
-      float: left;
-      margin-right: 0; }
-      .content .con-bottom-part .product .product-discription .for-big-kids {
-        padding-top: 18px;
-        font-size: 30px; }
-      .content .con-bottom-part .product .product-discription .pr-dis-discription {
-        padding-top: 30px;
-        width: 200px;
-        font-size: 14px; }
-      .content .con-bottom-part .product .product-discription .btn {
-        margin-top: 68px;
-        font-size: 14px;
-        overflow: hidden;
-        width: 100%; }
-    .content .con-bottom-part .product .pr-dis-picture img.bg {
-      max-width: 479px;
-      height: 266px; }
 
+.con-bottom-part .col-lg-4 .news {
+  text-align: center;
+  width: 100%;
+  float: left;
+  padding: 30px 21px 32px 30px;
+  background-color: red; }
+  .con-bottom-part .col-lg-4 .news .news-header {
+    padding-bottom: 17px;
+    font-size: 36px;
+    font-weight: 600; }
+  .con-bottom-part .col-lg-4 .news .news-text {
+    padding-bottom: 59px;
+    font-size: 14px;
+    font-weight: 600; }
+  .con-bottom-part .col-lg-4 .news .line {
+    border: 1px solid #c2c2c2;
+    border-top-color: transparent;
+    height: 8px;
+    width: 220px;
+    margin: 0 auto 27px; }
+  .con-bottom-part .col-lg-4 .news .btn {
+    background-color: #1F87D7;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 14px; }
+  .con-bottom-part .col-lg-4 .news .news-fotter {
+    font-size: 10px; }
+    .con-bottom-part .col-lg-4 .news .news-fotter span {
+      color: #9e9e9e; }
+.con-bottom-part .product {
+  display: block;
+  background-color: #2aabd2;
+  padding: 34px 28px 0 42px; }
+  .con-bottom-part .product .product-discription {
+    float: left;
+    margin-right: 113px; }
+    .con-bottom-part .product .product-discription .for-big-kids {
+      padding-top: 18px;
+      font-size: 30px; }
+    .con-bottom-part .product .product-discription .pr-dis-discription {
+      padding-top: 30px;
+      width: 200px;
+      font-size: 14px; }
+    .con-bottom-part .product .product-discription .btn {
+      margin-top: 68px;
+      font-size: 14px;
+      overflow: hidden;
+      width: 100%; }
+  .con-bottom-part .product .pr-dis-picture {
+    overflow: hidden;
+    width: 479px;
+    height: 300px; }
+    .con-bottom-part .product .pr-dis-picture img.bg {
+      width: 100%; }
+
+.footer .nav {
+  width: 20%; }
+  .footer .nav:last-child {
+    text-align: right; }
 .footer .one-click {
   background-color: rgba(2, 169, 255, 0.23);
   height: 75px;
@@ -319,7 +325,6 @@ body {
   margin: 0; }
   .footer .bot-menu.navbar .container-fluid ul.nav li a {
     color: #c2c2c2;
-    white-space: pre-line;
     font-size: 12px; }
   .footer .bot-menu.navbar .container-fluid ul.nav li a.lucy-polly {
     font-size: 12px;

@@ -105,7 +105,7 @@ body {
 .navbar.navbar-default {
   width: 100%;
   position: relative; }
-  .navbar.navbar-default .logo {
+  .navbar.navbar-default div.logo {
     font-family: "CoCo", sans-serif;
     padding-top: 68px;
     font-size: 36px;
@@ -255,7 +255,7 @@ body {
   width: 100%;
   float: left;
   padding: 30px 21px 32px 30px;
-  background-color: red; }
+  background-color: #fafafa; }
   .con-bottom-part .col-lg-4 .news .news-header {
     padding-bottom: 17px;
     font-size: 36px;
@@ -281,7 +281,7 @@ body {
       color: #9e9e9e; }
 .con-bottom-part .product {
   display: block;
-  background-color: #2aabd2;
+  background-color: #f8fdff;
   padding: 34px 28px 0 42px; }
   .con-bottom-part .product .product-discription {
     float: left;
@@ -310,7 +310,7 @@ body {
   .footer .nav:last-child {
     text-align: right; }
 .footer .one-click {
-  background-color: rgba(2, 169, 255, 0.23);
+  background-color: #eef7fe;
   height: 75px;
   display: block; }
   .footer .one-click .text-one-click {
@@ -319,23 +319,32 @@ body {
     display: block;
     font-size: 17px;
     font-weight: 600; }
-.footer .bot-menu.navbar .container-fluid ul.nav {
+.footer .bot-menu.navbar .container-fluid div.nav {
   float: left;
-  padding: 0;
-  margin: 0; }
-  .footer .bot-menu.navbar .container-fluid ul.nav li a {
+  padding-top: 32px; }
+  .footer .bot-menu.navbar .container-fluid div.nav div a {
     color: #c2c2c2;
-    font-size: 12px; }
-  .footer .bot-menu.navbar .container-fluid ul.nav li a.lucy-polly {
     font-size: 12px;
+    cursor: default;
+    text-decoration: none; }
+  .footer .bot-menu.navbar .container-fluid div.nav div a i.tw {
+    color: #42a5f5;
+    font-size: 14px;
+    margin-right: 10px; }
+  .footer .bot-menu.navbar .container-fluid div.nav div a.lucy-polly, .footer .bot-menu.navbar .container-fluid div.nav .list-time, .footer .bot-menu.navbar .container-fluid div.nav .list-head {
     color: black;
+    font-size: 12px;
+    font-weight: 600; }
+  .footer .bot-menu.navbar .container-fluid div.nav div a.lucy-polly {
     padding-bottom: 32px; }
-  .footer .bot-menu.navbar .container-fluid ul.nav li a.list-head {
-    color: black;
+  .footer .bot-menu.navbar .container-fluid div.nav div a.list-head {
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 32px; }
-  .footer .bot-menu.navbar .container-fluid ul.nav li a.list-bottom {
-    font-size: 10px; }
+  .footer .bot-menu.navbar .container-fluid div.nav div a.list-bottom {
+    font-size: 10px;
+    margin-top: 67px; }
+  .footer .bot-menu.navbar .container-fluid div.nav div a.john {
+    margin-top: 45px; }
 
 /*# sourceMappingURL=main.css.map */

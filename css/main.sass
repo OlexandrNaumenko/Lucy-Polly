@@ -4,7 +4,7 @@
   width: 100%
   position: relative
 
-  .logo
+  div.logo
     font-family: 'CoCo', sans-serif
     padding-top: 68px
     font-size: 36px
@@ -206,7 +206,7 @@
       //margin-right: 75px
       //margin-left: 21px
       padding: 30px 21px 32px 30px
-      background-color: red
+      background-color: #fafafa
 
       .news-header
         padding-bottom: 17px
@@ -240,7 +240,7 @@
 
   .product
     display: block
-    background-color: #2aabd2
+    background-color: #f8fdff
     padding: 34px 28px 0 42px
 
     .product-discription
@@ -275,7 +275,7 @@
     &:last-child
       text-align: right
   .one-click
-    background-color: rgba(2, 169, 255, 0.23)
+    background-color: #eef7fe
     height: 75px
     display: block
 
@@ -288,28 +288,45 @@
 
   .bot-menu.navbar
     .container-fluid
-      ul.nav
+      div.nav
         float: left
-        padding: 0
-        margin: 0
 
-        li a
+        padding-top: 32px
+
+        div a
           color: $base-color-grey
           font-size: 12px
+          cursor: default
+          text-decoration: none
 
-        li a.lucy-polly
-          font-size: 12px
+        div a i.tw
+          color: #42a5f5
+          font-size: 14px
+          margin-right: 10px
+
+
+
+
+        div a.lucy-polly,.list-time,.list-head
           color: black
+          font-size: 12px
+          font-weight: 600
+
+        div a.lucy-polly
           padding-bottom: 32px
 
-        li a.list-head
-          color: black
+
+        div a.list-head
           font-size: 14px
           font-weight: $base-font-weight
           padding-bottom: 32px
 
-        li a.list-bottom
+        div a.list-bottom
           font-size: 10px
+          margin-top: 67px
+
+        div a.john
+          margin-top: 45px
 
 
 

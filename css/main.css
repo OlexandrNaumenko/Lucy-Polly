@@ -322,29 +322,30 @@ body {
 .footer .bot-menu.navbar .container-fluid div.nav {
   float: left;
   padding-top: 32px; }
-  .footer .bot-menu.navbar .container-fluid div.nav div a {
+  .footer .bot-menu.navbar .container-fluid div.nav div {
     color: #c2c2c2;
     font-size: 12px;
     cursor: default;
-    text-decoration: none; }
-  .footer .bot-menu.navbar .container-fluid div.nav div a i.tw {
+    text-decoration: none;
+    padding-bottom: 20px; }
+  .footer .bot-menu.navbar .container-fluid div.nav div i.tw {
     color: #42a5f5;
     font-size: 14px;
     margin-right: 10px; }
-  .footer .bot-menu.navbar .container-fluid div.nav div a.lucy-polly, .footer .bot-menu.navbar .container-fluid div.nav .list-time, .footer .bot-menu.navbar .container-fluid div.nav .list-head {
+  .footer .bot-menu.navbar .container-fluid div.nav div.lucy-polly, .footer .bot-menu.navbar .container-fluid div.nav .list-time, .footer .bot-menu.navbar .container-fluid div.nav .list-head {
     color: black;
     font-size: 12px;
     font-weight: 600; }
-  .footer .bot-menu.navbar .container-fluid div.nav div a.lucy-polly {
+  .footer .bot-menu.navbar .container-fluid div.nav div.lucy-polly {
     padding-bottom: 32px; }
-  .footer .bot-menu.navbar .container-fluid div.nav div a.list-head {
+  .footer .bot-menu.navbar .container-fluid div.nav div.list-head {
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 32px; }
-  .footer .bot-menu.navbar .container-fluid div.nav div a.list-bottom {
+  .footer .bot-menu.navbar .container-fluid div.nav div.list-bottom {
     font-size: 10px;
     margin-top: 67px; }
-  .footer .bot-menu.navbar .container-fluid div.nav div a.john {
+  .footer .bot-menu.navbar .container-fluid div.nav div.john {
     margin-top: 45px; }
 
 /*# sourceMappingURL=main.css.map */

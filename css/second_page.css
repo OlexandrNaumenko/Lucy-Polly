@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300&subset=latin,cyrillic-ext);
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+a {
+  background-color: transparent; }
+  a:active {
+    outline: 0; }
+  a:hover {
+    outline: 0; }
+
+hr {
+  height: 0;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+.container {
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 544px) {
+    .container {
+      max-width: 576px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 940px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }
+  .container::after {
+    display: table;
+    clear: both;
+    content: ""; }
+
+@font-face {
+  font-family: "CoCo";
+  src: url("../fonts/coco.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  color: black;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif; }
+
+.btn {
+  padding: 12px 25px;
+  font-weight: bolder;
+  border: 1px solid #c2c2c2;
+  letter-spacing: 0.2px; }
+
+.btn-primary {
+  font-weight: normal;
+  background-image: -webkit-linear-gradient(top, #1565c0 0%, #0d47a1 100%);
+  background-image: -o-linear-gradient(top, #1565c0 0%, #0d47a1 100%);
+  background-image: linear-gradient(to bottom, #1565c0 0%, #0d47a1 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF1565C0', endColorstr='#FF0D47A1', GradientType=0);
+  border: none;
+  border-radius: 2px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  margin-left: 40px;
+  margin-right: 11px; }
+
+.act {
+  color: #0288d1; }
+
+.no_padding.container, .no_padding.container-fluid,
+.no_padding.col-lg-1, .no_padding.col-lg-10, .no_padding.col-lg-11, .no_padding.col-lg-12, .no_padding.col-lg-2,
+.no_padding.col-lg-3, .no_padding.col-lg-4, .no_padding.col-lg-5, .no_padding.col-lg-6, .no_padding.col-lg-7,
+.no_padding.col-lg-8, .no_padding.col-lg-9, .no_padding.col-md-1, .no_padding.col-md-10, .no_padding.col-md-11,
+.no_padding.col-md-12, .no_padding.col-md-2, .no_padding.col-md-3, .no_padding.col-md-4, .no_padding.col-md-5,
+.no_padding.col-md-6, .no_padding.col-md-7, .no_padding.col-md-8, .no_padding.col-md-9, .no_padding.col-sm-1,
+.no_padding.col-sm-10, .no_padding.col-sm-11, .no_padding.col-sm-12, .no_padding.col-sm-2, .no_padding.col-sm-3,
+.no_padding.col-sm-4, .no_padding.col-sm-5, .no_padding.col-sm-6, .no_padding.col-sm-7, .no_padding.col-sm-8,
+.no_padding.col-sm-9, .no_padding.col-xs-1, .no_padding.col-xs-10, .no_padding.col-xs-11, .no_padding.col-xs-12,
+.no_padding.col-xs-2, .no_padding.col-xs-3, .no_padding.col-xs-4, .no_padding.col-xs-5, .no_padding.col-xs-6,
+.no_padding.col-xs-7, .no_padding.col-xs-8, .no_padding.col-xs-9 {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.content .cont-picture, .content .cont-picture-new {
+  background-color: #fafafa;
+  width: 100%;
+  float: left;
+  display: block;
+  font-weight: 600;
+  padding-bottom: 60px; }
+  .content .cont-picture .pic-description, .content .cont-picture-new .pic-description {
+    padding: 54px 0 11px 0;
+    text-align: center;
+    font-size: 18px; }
+  .content .cont-picture .for-person, .content .cont-picture-new .for-person {
+    padding-bottom: 3px;
+    color: #c2c2c2;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal; }
+  .content .cont-picture .picture, .content .cont-picture-new .picture {
+    text-align: center; }
+  .content .cont-picture .price, .content .cont-picture-new .price {
+    text-align: center;
+    padding-top: 18px;
+    font-size: 18px;
+    font-weight: 900; }
+    .content .cont-picture .price .grn, .content .cont-picture-new .price .grn {
+      font-size: 12px;
+      color: #c2c2c2;
+      font-weight: normal; }
+.content .cont-picture-new .new-pic {
+  border: 1px solid;
+  font-size: 11px;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 3px 7px; }
+
+/*# sourceMappingURL=second_page.css.map */

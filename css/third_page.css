@@ -127,7 +127,7 @@ body {
     color: #cfd8dc; }
 
 .content {
-  margin: 0 116px; }
+  margin: 0 50px; }
   .content .product-sale .title {
     font-size: 36px;
     display: table;
@@ -148,7 +148,8 @@ body {
   .content .product-sale .big-picture {
     float: left;
     margin-right: 117px;
-    padding-top: 63px; }
+    padding-top: 63px;
+    padding-left: 67px; }
   .content .product-sale .product-sale-dis {
     padding-top: 63px; }
     .content .product-sale .product-sale-dis .main-char-left {

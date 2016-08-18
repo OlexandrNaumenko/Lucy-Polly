@@ -1,16 +1,21 @@
 @import "base"
-.content
-  .for-devices
-    color: $base-color-top-menu
-    font-size: 12px
 
-    .shev
-      color: #cfd8dc
+.for-devices
+  color: $base-color-top-menu
+  font-size: 12px
+
+  .shev
+    color: #cfd8dc
+
+.content
+  margin: 0 116px
 
   .product-sale
 
     .title
       font-size: 36px
+      display: table
+      margin: 0 auto
 
       .name
         margin-right: 19px
@@ -19,6 +24,8 @@
 
       .new
         display: inline
+        position: relative
+        bottom: 6px
 
       .name
         text-align: center
@@ -35,13 +42,39 @@
     .product-sale-dis
       padding-top: 63px
 
-      .main-char
+      .main-char-left
+        float: left
+        padding-right: 112px
+
+      .main-char-left,.main-char-right
+        font-size: 12px
+        font-weight: 600
 
         .dis
-          font-size: 12px
+          padding-bottom: 26px
 
-          .mar
-            margin-right: 112px
+      .dis-header
+        padding: 10px 0  32px 0
+        color: #5135a6
+        font-size: 12px
+        font-weight: 600
+
+      .dis-text
+        color: $base-color-top-menu
+        font-size: 12px
+        padding-bottom: 45px
+        span.pic-text
+          margin-bottom: 24px
+          display: block
+
+      .btn-primary
+        margin-left: 0
+
+  .often-buy
+    font-size: 18px
+    font-weight: 600
+    text-align: center
+    padding-top: 62px
 
 
 

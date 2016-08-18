@@ -1,4 +1,16 @@
 {
+  "product" : {
+    "options" : [
+      {
+        "name" : "Бесплатная доставка",
+        "value" : "Э"
+      },
+      {
+        "name" : "Бесплатная доставка",
+        "value" : "Э"
+      }
+    ]
+  },
   "compilerOptions": {
     "module": "commonjs",
     "target": "es5",

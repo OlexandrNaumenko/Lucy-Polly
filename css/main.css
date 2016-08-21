@@ -243,7 +243,8 @@ body {
   width: 100%;
   float: left;
   display: block;
-  font-weight: 600; }
+  font-weight: 600;
+  height: 317px; }
   .content .picture-sm-top .pic-description, .content .sp-pro-picture-sm-second .pic-description {
     padding-top: 24px;
     text-align: center; }
@@ -256,7 +257,8 @@ body {
   width: 100%;
   float: left;
   display: block;
-  font-weight: 600; }
+  font-weight: 600;
+  height: 317px; }
   .content .picture-sm-top-second .pic-description, .content .picture-big-top .pic-description, .content .sp-pro-picture-sm .pic-description {
     padding-bottom: 22px;
     text-align: center; }

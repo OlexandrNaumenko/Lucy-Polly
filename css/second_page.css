@@ -120,12 +120,12 @@ body {
   padding-left: 0px; }
 
 .content .cont-picture, .content .cont-picture-new {
-  background-color: #ffffff;
   width: 100%;
   float: left;
   display: block;
   font-weight: 600;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  background-color: rgba(59, 61, 220, 0.09); }
   .content .cont-picture .pic-description, .content .cont-picture-new .pic-description {
     padding: 54px 0 11px 0;
     text-align: center;
@@ -138,5 +138,7 @@ body {
     font-weight: normal; }
   .content .cont-picture .picture, .content .cont-picture-new .picture {
     text-align: center; }
+.content .cont-picture-new {
+  background-color: mistyrose; }
 
 /*# sourceMappingURL=second_page.css.map */

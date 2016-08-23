@@ -104,7 +104,7 @@
       font-size: 8px
   .carousel-inner
     .item
-      height: 458px
+      height: 550px
       overflow: hidden
       .bg
         +img-responsive()
@@ -154,6 +154,13 @@
 
     .picture
       text-align: center
+    @media all and (min-width: 950px) and (max-width: 1200px)
+      padding: 57px 0 26px
+    @media all and (min-width: 750px) and (max-width: 950px)
+      padding: 57px 0 26px
+    @media all and (max-width: 750px)
+      padding: 57px 0 26px
+
 
   .picture-sm-top-second
     //@extend .picture-sm-top
@@ -226,45 +233,45 @@
       font-weight: normal
 
 .con-bottom-part
-  .col-lg-4
-    .news
-      text-align: center
-      width: 100%
-      float: left
-      //margin-right: 75px
-      //margin-left: 21px
-      padding: 30px 21px 32px 30px
-      background-color: #fafafa
 
-      .news-header
-        padding-bottom: 17px
-        //padding-top: 30px
-        font-size: 36px
-        font-weight: 600
+  .news
+    text-align: center
+    width: 100%
+    float: left
+    //margin-right: 75px
+    //margin-left: 21px
+    padding: 30px 21px 32px 30px
+    background-color: #fafafa
 
-      .news-text
-        padding-bottom: 59px
-        font-size: 14px
-        font-weight: 600
+    .news-header
+      padding-bottom: 17px
+      //padding-top: 30px
+      font-size: 36px
+      font-weight: 600
 
-      .line
-        border: 1px solid $base-color-grey
-        border-top-color: transparent
-        height: 8px
-        width: 220px
-        margin: 0 auto 27px
+    .news-text
+      padding-bottom: 59px
+      font-size: 14px
+      font-weight: 600
 
-      .btn
-        background-color: #1F87D7
-        margin-bottom: 30px
-        color: #ffffff
-        font-size: 14px
+    .line
+      border: 1px solid $base-color-grey
+      border-top-color: transparent
+      height: 8px
+      width: 220px
+      margin: 0 auto 27px
 
-      .news-fotter
-        font-size: 10px
+    .btn
+      background-color: #1F87D7
+      margin-bottom: 30px
+      color: #ffffff
+      font-size: 14px
 
-        span
-          color: $base-color-top-menu
+    .news-fotter
+      font-size: 10px
+
+      span
+        color: $base-color-top-menu
 
   .product
     display: block
@@ -273,7 +280,6 @@
 
     .product-discription
       float: left
-      margin-right: 113px
 
       .for-big-kids
         padding-top: 18px
@@ -284,6 +290,9 @@
         width: 200px
         font-size: 14px
 
+      .for-big-kids,.pr-dis-discription
+        font-weight: 600
+
       .btn
         margin-top: 68px
         font-size: 14px
@@ -292,16 +301,13 @@
 
     .pr-dis-picture
       overflow: hidden
-      width: 479px
+      width: initial
       height: 300px
       img.bg
         width: 100%
 
 .footer
-  .nav
-    width: 20%
-    &:last-child
-      text-align: right
+
   .one-click
     background-color: #eef7fe
     height: 75px
@@ -316,45 +322,85 @@
 
   .bot-menu.navbar
     .container-fluid
+
       div.nav
-        float: left
+        //float: left
         padding-top: 32px
+        margin: 0 auto
 
-        div
-          color: $base-color-grey
-          font-size: 12px
-          cursor: default
-          text-decoration: none
-          padding-bottom: 20px
+      div
+        color: $base-color-grey
+        font-size: 12px
+        cursor: default
+        text-decoration: none
+        padding-bottom: 20px
 
-        div i.tw
-          color: #42a5f5
-          font-size: 14px
-          margin-right: 10px
-
-
-
-
-        div.lucy-polly,.list-time,.list-head
-          color: black
-          font-size: 12px
-          font-weight: 600
+      div.nav.first-block
 
         div.lucy-polly
-          padding-bottom: 32px
-
-
-        div.list-head
-          font-size: 14px
-          font-weight: $base-font-weight
           padding-bottom: 32px
 
         div.list-bottom
           font-size: 10px
           margin-top: 67px
 
-        div.john
-          margin-top: 45px
+
+
+
+        div.lucy-polly,.list-time,.list-head
+          color: black
+          font-size: 14px
+          font-weight: 600
+
+
+      //.genera-wrapper
+        .wrapper-for-nav
+          //display: table
+          //margin: 0 auto
+          .nav
+            width: 100%
+            margin: 0 auto
+            display: table
+
+            div.list-head
+              font-size: 14px
+              font-weight: $base-font-weight
+              padding-bottom: 32px
+
+
+          .nav.last-block
+            text-align: right
+
+            div
+              color: $base-color-grey
+              font-size: 12px
+              cursor: default
+              text-decoration: none
+              padding-bottom: 20px
+
+            div i.tw
+              color: #42a5f5
+              font-size: 14px
+              margin-right: 10px
+
+
+
+
+
+
+
+
+          div.list-head
+            font-size: 14px
+            font-weight: $base-font-weight
+            padding-bottom: 32px
+
+          div.list-bottom
+            font-size: 10px
+            margin-top: 67px
+
+          div.john
+            margin-top: 45px
 
 
 

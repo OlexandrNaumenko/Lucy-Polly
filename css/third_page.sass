@@ -9,7 +9,7 @@
     color: #cfd8dc
 
 .content-third-page
-  margin: 0 50px
+  margin: 0 20px
 
   .for-devices
     color: $base-color-top-menu
@@ -31,12 +31,14 @@
         //margin-right: 19px
         font-weight: 600
         float: left
-        text-align: center
+        text-align: right
+        padding-right: 5px
 
       .new
-        display: inline
+        display: table
         position: relative
-        bottom: 6px
+        top: 16px
+        margin-left: 5px
 
 
     .price
@@ -45,9 +47,11 @@
 
     .big-picture
       float: left
-      margin-right: 117px
-      padding-top: 63px
-      padding-left: 67px
+      width: 100%
+      padding-top: 20px
+
+      img
+        width: 100%
 
     .product-sale-dis
       padding-top: 63px
@@ -78,7 +82,13 @@
         margin-bottom: 24px
         display: block
 
-    .product-sale-dis,.dis-header,.dis-text,.btn-primary
+    .btn-primary
+      margin-left: 0px
+    .btn
+      //@media all and (max-width: 750px)
+      //padding: 12px 5px
+
+    //.product-sale-dis,.dis-header,.dis-text,.btn-primary
       margin-left: 67px
 
 .content

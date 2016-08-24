@@ -69,6 +69,9 @@ body {
   font-weight: bolder;
   border: 1px solid #c2c2c2;
   letter-spacing: 0.2px; }
+  @media all and (max-width: 750px) {
+    .btn {
+      padding: 12px 5px; } }
 
 .btn-primary {
   font-weight: normal;
@@ -154,13 +157,19 @@ body {
       font-weight: normal; }
       .navbar-default .navbar-top-part .navbar-left a.active, .navbar-default .navbar-top-part .navbar-left a:hover, .navbar-default .navbar-top-part .navbar-right a.active, .navbar-default .navbar-top-part .navbar-right a:hover {
         border-color: #455a64; }
-  .navbar-default .navbar-nav a.menu-ctg-top {
+  .navbar-default .navbar-nav a.menu-ctg-top, .navbar-default .navbar-nav a.menu-ctg-basket {
     color: #c2c2c2;
     margin-left: 14px; }
+  @media all and (min-width: 750px) and (max-width: 950px) {
+    .navbar-default .navbar-nav a.menu-ctg-basket {
+      margin-left: 0; } }
+  @media all and (max-width: 750px) {
+    .navbar-default .navbar-nav a.menu-ctg-basket {
+      margin-left: 0; } }
   .navbar-default .navbar-nav:last-child a {
     margin-right: 14px; }
   @media all and (min-width: 750px) and (max-width: 1170px) {
-    .navbar-default .navbar-nav a.menu-ctg-top {
+    .navbar-default .navbar-nav a.menu-ctg-top, .navbar-default .navbar-nav a.menu-ctg-basket {
       margin-left: 10px; }
     .navbar-default .navbar-nav:last-child a {
       margin-right: 0; } }
@@ -389,10 +398,18 @@ body {
   padding-bottom: 32px; }
 .footer .bot-menu.navbar .container-fluid div.nav.first-block div.list-bottom {
   font-size: 10px;
-  margin-top: 67px; }
+  margin-top: 45px; }
 .footer .bot-menu.navbar .container-fluid div.nav.first-block div.lucy-polly, .footer .bot-menu.navbar .container-fluid div.nav.first-block .list-time, .footer .bot-menu.navbar .container-fluid div.nav.first-block .list-head {
   color: black;
   font-size: 14px;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-bottom: 32px; }
+.footer .bot-menu.navbar .container-fluid div.nav .list-head {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 32px; }
+.footer .bot-menu.navbar .container-fluid div.nav.last-block {
+  text-align: right; }
 
 /*# sourceMappingURL=main.css.map */

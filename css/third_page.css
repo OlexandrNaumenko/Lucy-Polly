@@ -69,6 +69,9 @@ body {
   font-weight: bolder;
   border: 1px solid #c2c2c2;
   letter-spacing: 0.2px; }
+  @media all and (max-width: 750px) {
+    .btn {
+      padding: 12px 5px; } }
 
 .btn-primary {
   font-weight: normal;
@@ -127,7 +130,7 @@ body {
     color: #cfd8dc; }
 
 .content-third-page {
-  margin: 0 50px; }
+  margin: 0 20px; }
   .content-third-page .for-devices {
     color: #9e9e9e;
     font-size: 12px;
@@ -141,19 +144,22 @@ body {
     .content-third-page .product-sale .title .name {
       font-weight: 600;
       float: left;
-      text-align: center; }
+      text-align: right;
+      padding-right: 5px; }
     .content-third-page .product-sale .title .new {
-      display: inline;
+      display: table;
       position: relative;
-      bottom: 6px; }
+      top: 16px;
+      margin-left: 5px; }
   .content-third-page .product-sale .price {
     font-size: 18px;
     padding-top: 22px; }
   .content-third-page .product-sale .big-picture {
     float: left;
-    margin-right: 117px;
-    padding-top: 63px;
-    padding-left: 67px; }
+    width: 100%;
+    padding-top: 20px; }
+    .content-third-page .product-sale .big-picture img {
+      width: 100%; }
   .content-third-page .product-sale .product-sale-dis {
     padding-top: 63px; }
     .content-third-page .product-sale .product-sale-dis .main-char-left {
@@ -177,8 +183,8 @@ body {
     .content-third-page .product-sale .dis-text span.pic-text {
       margin-bottom: 24px;
       display: block; }
-  .content-third-page .product-sale .product-sale-dis, .content-third-page .product-sale .dis-header, .content-third-page .product-sale .dis-text, .content-third-page .product-sale .btn-primary {
-    margin-left: 67px; }
+  .content-third-page .product-sale .btn-primary {
+    margin-left: 0px; }
 
 .content .often-buy {
   font-size: 18px;

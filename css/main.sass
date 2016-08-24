@@ -48,13 +48,23 @@
     a.menu-ctg-top
       color: $base-color-grey
       margin-left: 14px
+
+    a.menu-ctg-basket
+      @extend .menu-ctg-top
+      @media all and (min-width: 750px) and (max-width: 950px)
+        margin-left: 0
+      @media all and (max-width: 750px)
+        margin-left: 0
+
     &:last-child a
       margin-right: 14px
+
     @media all and (min-width: 750px) and (max-width: 1170px)
       a.menu-ctg-top
         margin-left: 10px
       &:last-child a
         margin-right: 0
+
     span.tel-number
       font-weight: normal
 
@@ -342,7 +352,7 @@
 
         div.list-bottom
           font-size: 10px
-          margin-top: 67px
+          margin-top: 45px
 
 
 
@@ -351,56 +361,68 @@
           color: black
           font-size: 14px
           font-weight: 600
+          margin-bottom: 32px
 
+      div.nav .list-head
+        color: black
+        font-size: 14px
+        font-weight: 600
+        margin-bottom: 32px
 
-      //.genera-wrapper
-        .wrapper-for-nav
-          //display: table
-          //margin: 0 auto
-          .nav
-            width: 100%
-            margin: 0 auto
-            display: table
-
-            div.list-head
-              font-size: 14px
-              font-weight: $base-font-weight
-              padding-bottom: 32px
-
-
-          .nav.last-block
-            text-align: right
-
-            div
-              color: $base-color-grey
-              font-size: 12px
-              cursor: default
-              text-decoration: none
-              padding-bottom: 20px
-
-            div i.tw
-              color: #42a5f5
-              font-size: 14px
-              margin-right: 10px
+      div.nav.last-block
+        text-align: right
 
 
 
 
+//.genera-wrapper
+  .wrapper-for-nav
+    //display: table
+    //margin: 0 auto
+    .nav
+      width: 100%
+      margin: 0 auto
+      display: table
+
+      div.list-head
+        font-size: 14px
+        font-weight: $base-font-weight
+        padding-bottom: 32px
+
+
+    .nav.last-block
+      text-align: right
+
+      div
+        color: $base-color-grey
+        font-size: 12px
+        cursor: default
+        text-decoration: none
+        padding-bottom: 20px
+
+      div i.tw
+        color: #42a5f5
+        font-size: 14px
+        margin-right: 10px
 
 
 
 
-          div.list-head
-            font-size: 14px
-            font-weight: $base-font-weight
-            padding-bottom: 32px
 
-          div.list-bottom
-            font-size: 10px
-            margin-top: 67px
 
-          div.john
-            margin-top: 45px
+
+
+    div.list-head
+      font-size: 14px
+      font-weight: $base-font-weight
+      padding-bottom: 32px
+
+    div.list-bottom
+      font-size: 10px
+      margin-top: 67px
+
+    div.john
+      margin-top: 45px
 
 
 

@@ -387,7 +387,8 @@ body {
     font-weight: 600; }
 .footer .bot-menu.navbar .container-fluid div.nav {
   padding-top: 32px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: table; }
 .footer .bot-menu.navbar .container-fluid div {
   color: #c2c2c2;
   font-size: 12px;

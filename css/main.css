@@ -206,15 +206,11 @@ body {
   padding-right: 0px; }
 
 #lp-carousel .carousel-indicators li {
-  background-color: #e3e3e3; }
-  #lp-carousel .carousel-indicators li .indicator {
-    font-size: 8px;
-    margin-right: 6px;
-    background-color: #e3e3e3; }
+  background-color: #e3e4e4;
+  border: none; }
   #lp-carousel .carousel-indicators li .active {
-    background-color: red;
-    border-color: #b6b9bb;
-    font-size: 8px; }
+    border: 2px solid #c3c6c8;
+    background-color: red; }
 #lp-carousel .carousel-inner .item {
   height: 550px;
   overflow: hidden; }
@@ -410,6 +406,10 @@ body {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 32px; }
+.footer .bot-menu.navbar .container-fluid div i.tw {
+  color: #42a5f5;
+  font-size: 14px;
+  margin-right: 10px; }
 .footer .bot-menu.navbar .container-fluid div.nav.last-block {
   text-align: right; }
 

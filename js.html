@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js Test</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        var i = 1;
+        console.log(i);
+        i = 'a';
+        console.log(i);
+        i = 4.5;
+        console.log(i);
+        i = ['a', 'b', 'c'];
+        console.log(i);
+        i = {
+            "a" : 1,
+            "b" : 2,
+            c   : 3
+        };
+        console.log(i, 'Hello', 456564564546);
+        if(i == 1) {
+            alert("i == i")
+        }
+
+        // > < <= >= ==
+        var data = ['a', 'b', 'c']; // 0 => 'a'
+        console.log(data[0]);
+        data[0] = 'd';
+        for(i = 0; i < data.length; i++) { // data.length = 3
+            console.log('key= ', i, ' Value=', data[i]);
+        }
+        //Написати програму для того щоб знайти всі цифри які діляться на 3,5,7 до 200
+        console.log(5%3, 6%3);
+    </script>
+</body>
+</html>
